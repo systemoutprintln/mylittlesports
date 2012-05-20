@@ -1,0 +1,33 @@
+/* Change log:
+
+5-19-12 - System - Initial CSS
+
+*/
+
+/* Emotes */
+
+/* Sheet 1 */
+a[href|="/pitpens"], a[href|="/ottsens"]
+{
+    background-image: url(%%Emotes1%%) !important;
+    clear: none;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+}
+
+a[href|="/pitpens"]
+{
+    background-position: 0 0;
+}
+a[href|="/ottsens"]
+{
+    background-position: -91px 0;
+}
+
+/* SP */
+a[href|="/sp"] {
+    display: inline-block;
+    padding-right: 100%;
+}
